@@ -1,8 +1,5 @@
 {
     "recommendations": [
-        "ritwickdey.liveserver",
-        "adpyke.codesnap",
-        "usernamehw.errorlens",
-        "rwietter.illusion"
+        "adpyke.codesnap"
     ]
 }
