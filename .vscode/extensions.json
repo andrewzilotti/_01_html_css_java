@@ -1,5 +1,6 @@
 {
     "recommendations": [
-        "adpyke.codesnap"
+        "adpyke.codesnap",
+        "formulahendry.auto-rename-tag"
     ]
 }
