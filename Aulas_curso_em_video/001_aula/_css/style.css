@@ -34,8 +34,8 @@ a:hover {
 
 header#cabecalho img#icone {
     position: absolute;
-    left: 1050px;
-    top: 35px;
+    left: 70%;
+    top: 5%;
 }
 
 header#cabecalho {
