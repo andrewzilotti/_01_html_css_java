@@ -113,6 +113,7 @@ nav#menu li {
     padding: 03px;
     margin: 03px;
     transition: background-color 350ms;
+    border-radius: 3px;
 }
 
 nav#menu li:hover {
