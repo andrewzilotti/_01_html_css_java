@@ -1,47 +1,100 @@
-Google Glass
-A revolução do Google está chegando
+<!DOCTYPE html>
+<html lang="pt-br">
 
-[AQUI ENTRA UMA FOTO]
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="_css/style.css">
+</head>
 
-Menu Principal
-- Home
-- Especificações
-- Fotos
-- Multimídia
-- Fale conosco
+<script src="_javascript/funcoes.js"></script>
 
-Fale Conosco > Contato
-Formulário de Contato
-por Gustavo Guanabara
-Atualizado em 01/Maio/2013
+<body>
+    <div>
+        <header id="cabecalho">
+            <hgroup>
+                <h1>Google Glass</h1>
+                <h2>A revolução do Google está chegando</h2>
+            </hgroup>
 
-Identificação do Usuário
-    Nome:
-    Senha:
-    E-mail:
-    Sexo:
-        - Masculino
-        - Feminino
-    Data de Nascimento:
+            <figure>
+                <img id="icone" src="_imagens/glass-oculos-preto-peq.png" alt="">
+            </figure>
 
-Endereço do Usuário
-    Logradouro:
-    Número:
-    Estado:
-    Cidade:
+            <nav id="menu">
+                <h1>Menu Principal</h1>
+                <ul>
+                    <li onmouseover="mudaFoto('_imagens/home.png')"
+                        onmouseout="mudaFoto('_imagens/glass-oculos-preto-peq.png')"><a href="index.html">Home</a></li>
+                    <li onmouseover="mudaFoto('_imagens/especificacoes.png')"
+                        onmouseout="mudaFoto('_imagens/glass-oculos-preto-peq.png')"><a
+                            href="specs.html">Especificações</a></li>
+                    <li onmouseover="mudaFoto('_imagens/fotos.png')"
+                        onmouseout="mudaFoto('_imagens/glass-oculos-preto-peq.png')"><a href="photo.html">Fotos</a></li>
+                    <li onmouseover="mudaFoto('_imagens/multimidia.png')"
+                        onmouseout="mudaFoto('_imagens/glass-oculos-preto-peq.png')"><a
+                            href="multimidia.html">Multimídia</a></li>
+                    <li onmouseover="mudaFoto('_imagens/contato.png')"
+                        onmousemove="mudaFoto('_imagens/glass-oculos-preto-peq.png')"><a href="talk_with_us.html">Fale
+                            conosco</a></li>
+                </ul>
+            </nav>
+        </header>
 
-Mensagem do Usuário
-    Grau de Urgência:
-    Mensagem:
+        <section id="corpo">
+            <article id="noticia-principal">
+                <header id="cabecalho-artigo">
+                    <hgroup>
+                        <h3>Fale Conosco > Contato</h3>
+                        <h1>Formulário de Contato</h1>
+                        <h2>por Gustavo Guanabara</h2>
+                        <h3 class="direita">Atualizado em 01/Maio/2013</h3>
+                    </hgroup>
+                </header>
 
-Quero um Google Glass
-    Gostaria de adquirir um Google Glass quando disponível
-    Cor:
-    Quantidade:
-    Preço Total: R$
+                <p>
+                    Identificação do Usuário
+                    Nome:
+                    Senha:
+                    E-mail:
+                    Sexo:
+                    - Masculino
+                    - Feminino
+                    Data de Nascimento:
 
+                    Endereço do Usuário
+                    Logradouro:
+                    Número:
+                    Estado:
+                    Cidade:
 
-[BOTÃO ENVIAR]
+                    Mensagem do Usuário
+                    Grau de Urgência:
+                    Mensagem:
 
-Copyright 2013 - by Gustavo Guanabara
-Facebook | Twitter
+                    Quero um Google Glass
+                    Gostaria de adquirir um Google Glass quando disponível
+                    Cor:
+                    Quantidade:
+                    Preço Total: R$
+
+                    [BOTÃO ENVIAR]
+                </p>
+            </article>
+        </section>
+
+        <footer id="rodape">
+            <p>
+                Copyright &copy; 2013 -
+                Aluno <a href="https://github.com/andrewzilotti" target="_blank">Andrew Zilotti</a>,
+                Prof. <a href="https://www.youtube.com/@CursoemVideo" target="_blank">Gustavo Guanabara</a><br>
+                <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+                |
+                <a href="https://twitter.com/" target="_blank">Twitter</a>
+            </p>
+        </footer>
+    </div>
+</body>
+
+</html>
