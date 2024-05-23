@@ -1,5 +1,5 @@
 # _01_html_css_java
- Curso HTML CSS Java #01
+ Curso HTML CSS JavaScript
 
 _# Estudando HTML CSS Java: <br>
  Criando um site simples com aulas do "Curso em Vídeo"<br>
