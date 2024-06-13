@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Multimídia</title>
     <link rel="stylesheet" href="_css/style.css">
+    <link rel="stylesheet" href="_css/media.css">
 </head>
 
 <script src="_javascript/funcoes.js"></script>
@@ -35,31 +36,33 @@
                         onmouseout="mudaFoto('_imagens/multimidia.png')"><a href="multimidia.html">Multimídia</a></li>
                     <li onmouseover="mudaFoto('_imagens/contato.png')" onmouseout="mudaFoto('_imagens/multimidia.png')">
                         <a href="talk_with_us.html">Fale
-                            conosco</a></li>
+                            conosco</a>
+                    </li>
                 </ul>
             </nav>
         </header>
 
-        <section id="corpo">
-            <article id="noticia-principal">
-                <header id="cabecalho-artigo">
-                    <hgroup>
-                        <h3>Glass > Multimídia</h3>
-                        <h1>Sons e Vídeos</h1>
-                        <h2>por Gustavo Guanabara</h2>
-                        <h3 class="direita">Atualizado em 01/Maio/2013</h3>
-                    </hgroup>
-                </header>
+        <article id="noticia-principal">
+            <header id="cabecalho-artigo">
+                <hgroup>
+                    <h3>Glass > Multimídia</h3>
+                    <h1>Sons e Vídeos</h1>
+                    <h2>por Gustavo Guanabara</h2>
+                    <h3 class="direita">Atualizado em 01/Maio/2013</h3>
+                </hgroup>
+            </header>
 
-                Áudio e Vídeo
+            <div id="tv-radio">
+                <audio id="musica" src="_media/2009-lovers-carvings-bibio.mp3" controls="controls">
+                    Desculpe, mas não foi possível carregar o áudio.
+                </audio>
 
-                [AQUI ENTRA UM VÍDEO]
-                [AQUI ENTRA UM ÁUDIO]
-
-            </article>
-        </section>
-
-
+                <video id="filme" src="_media/getting-started.mp4" controls="controls"
+                    poster="_imagens/video-mini03.jpg">
+                    Desculpe, mas não foi possível carregar o vídeo.
+                </video>
+            </div>
+        </article>
 
         <footer id="rodape">
             <p>
