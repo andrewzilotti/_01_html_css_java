@@ -1,6 +1,6 @@
 {
     "recommendations": [
-        "adpyke.codesnap",
-        "formulahendry.auto-rename-tag"
+        "pkief.material-icon-theme",
+        "ritwickdey.liveserver"
     ]
 }
